@@ -1,0 +1,5 @@
+https://jvm-gaming.org/t/game-loops/36689
+https://www.youtube.com/watch?v=mTJZpRK_oNo&ab_channel=DevGenieAcademy
+http://www.iitk.ac.in/esc101/05Aug/tutorial/post1.0/converting/deprecatedAWT.html
+https://coderanch.com/t/339662/java/AWT-size-titlebar-Frame
+https://stackoverflow.com/questions/18249592/how-to-change-font-size-in-drawstring-java

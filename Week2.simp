@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.05" multi-file="no" uid="simpb8278c7e03974bc2b5df5815fc0124f5">
+  <meta>
+    <name>Week2</name>
+    <authors>Mauri Muler</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>390</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>6</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>30</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-5d65937882fa442cb55294faab3208ca" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Mauri</first-name>
+        <last-name>Muler</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-321351d23131422689e205d92dea42e8" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Class:be627e6874cc4683b48bd912e8b3b8ee" tid="" name="Main" description="" class-ref="be627e6874cc4683b48bd912e8b3b8ee" />
+      <type id="Graphics" tid="" name="Graphics" description="" />
+      <type id="KeyEvent" tid="" name="KeyEvent" description="" />
+      <type id="Rectangle" tid="" name="Rectangle" description="" />
+      <type id="Class:eeab68af5ea849a6908140c30a38fba5" tid="" name="Player" description="" class-ref="eeab68af5ea849a6908140c30a38fba5" />
+      <type id="Class:cc013418f32e4b1cb7c809ea16296aa3" tid="" name="Ball" description="" class-ref="cc013418f32e4b1cb7c809ea16296aa3" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pa36cdf1cb9b5450f9a5f329b19a9e017_677012069" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Mauri Muler</author>
+        </authors>
+        <description />
+        <creation-date>01/19/2022 20:27:36</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p0a133b9ebc4c455d952b8a4eb8b25ba9_924803351" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Mauri Muler</author>
+          </authors>
+          <description />
+          <creation-date>01/19/2022 20:27:38</creation-date>
+          <change-date>01/19/2022 20:59:22</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="fc8ecc6ff1ea4aca95a568e06bbaf5c2" cid="PKG001" type="package" name="pong" style-class="" change-tracking-state="added" creator="" creation-date="01/19/2022 20:32:26">
+            <owned-items>
+              <owned-item ref="9009b11c9376464f9e4a471dd11412dc" />
+              <owned-item ref="513efa1e9e7e43f6833a13b8782d35b2" />
+              <owned-item ref="eeab68af5ea849a6908140c30a38fba5" />
+              <owned-item ref="cc013418f32e4b1cb7c809ea16296aa3" />
+              <owned-item ref="be627e6874cc4683b48bd912e8b3b8ee" />
+            </owned-items>
+          </item>
+          <item id="9009b11c9376464f9e4a471dd11412dc" cid="C001" type="class" name="Draw" style-class="" owner="fc8ecc6ff1ea4aca95a568e06bbaf5c2" change-tracking-state="added" creator="" creation-date="01/19/2022 20:32:37">
+            <owned-items>
+              <owned-item ref="f84a7500225146ae887dcd717e85f691" />
+            </owned-items>
+            <attributes>
+              <attribute id="a69b31de6df4148f490896f44557df0ed548" cid="PROP001" name="frame" creation-date="01/19/2022 20:39:23" property-ref="f84a7500225146ae887dcd717e85f691" />
+            </attributes>
+            <operations>
+              <operation id="oa7af9a41172d41ba8445b55253258f8b462" cid="OP002" name="Draw" creation-date="01/19/2022 20:38:24" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pad49b11c26904b2197572b5d96807621" name="frame" type="Main" type-id="Class:be627e6874cc4683b48bd912e8b3b8ee" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oad26a3fef8ec42f7bf63f0088eb5b519948" cid="OP003" name="paintComponent" creation-date="01/19/2022 20:38:46" type="" type-id="" visibility="protected">
+                <parameters>
+                  <parameter id="p74015ee0da1548f699ec4f28e7e08f8a" name="g" type="Graphics" type-id="Graphics" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="513efa1e9e7e43f6833a13b8782d35b2" cid="C002" type="class" name="Keyboard" style-class="" owner="fc8ecc6ff1ea4aca95a568e06bbaf5c2" change-tracking-state="added" creator="" creation-date="01/19/2022 20:32:53">
+            <owned-items>
+              <owned-item ref="36145b2072c844489ce9485b6f51ed7b" />
+            </owned-items>
+            <attributes>
+              <attribute id="ab6fb7c0d182748ada2022824e07ec106945" cid="PROP002" name="frame" creation-date="01/19/2022 20:40:35" property-ref="36145b2072c844489ce9485b6f51ed7b" />
+            </attributes>
+            <operations>
+              <operation id="o35c8a75445b0453ebd49e3db58d0965b76" cid="OP004" name="Keyboard" creation-date="01/19/2022 20:40:48" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0c7750bfb3ac4e91944959911ade66c3" name="frame" type="Main" type-id="Class:be627e6874cc4683b48bd912e8b3b8ee">
+                    <tagged-values>
+                      <tagged-value id="tv2396b59ca79d4b1386cfeae128274b6c" name="set_frame" type="reference" multiple="false" hidden="false" ref="36145b2072c844489ce9485b6f51ed7b" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o91a3772f81dc45e099c9b52976f77504851" cid="OP005" name="keyTyped" creation-date="01/19/2022 20:41:02" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p07d09f7bc1254daea275fb558d9a9501" name="e" type="KeyEvent" type-id="KeyEvent" />
+                </parameters>
+              </operation>
+              <operation id="oadc5f323f8094dc1aeacc7bef5c481b1467" cid="OP006" name="keyPressed" creation-date="01/19/2022 20:41:33" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd5138764bc974f818b577744c55c689c" name="e" type="KeyEvent" type-id="KeyEvent" />
+                </parameters>
+              </operation>
+              <operation id="obfffe182d19d41619a4dc34f126b7bcb728" cid="OP007" name="keyReleased" creation-date="01/19/2022 20:41:53" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pbb66ff401ab14cd28a1878688d097698" name="e" type="KeyEvent" type-id="KeyEvent" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="eeab68af5ea849a6908140c30a38fba5" cid="C003" type="class" name="Player" style-class="" owner="fc8ecc6ff1ea4aca95a568e06bbaf5c2" change-tracking-state="added" creator="" creation-date="01/19/2022 20:35:42">
+            <owned-items>
+              <owned-item ref="46c102d5e7d346c4846b15dae9e5f681" />
+              <owned-item ref="1d5d0ba7e9dd4cfda17b1d8410082e93" />
+              <owned-item ref="b74b6b3fdf43440fb42ed6220bc62e2e" />
+              <owned-item ref="90757f48590046a89059b23cade8ff38" />
+              <owned-item ref="5fa409bcb795415d80c7ebb6a62120ac" />
+            </owned-items>
+            <attributes>
+              <attribute id="a88d3c5ea7c094b46ac3216a332e436b1804" cid="PROP003" name="width" creation-date="01/19/2022 20:42:26" property-ref="46c102d5e7d346c4846b15dae9e5f681" />
+              <attribute id="a2a65361388d74553984449bd7cf796a0558" cid="PROP004" name="height" creation-date="01/19/2022 20:42:35" property-ref="1d5d0ba7e9dd4cfda17b1d8410082e93" />
+              <attribute id="aa6ad3a0035694e609c922c16d82fc03d789" cid="PROP005" name="x" creation-date="01/19/2022 20:44:23" property-ref="b74b6b3fdf43440fb42ed6220bc62e2e" />
+              <attribute id="a161c18be87f84b82a54ff5669d2a8e85387" cid="PROP006" name="y" creation-date="01/19/2022 20:44:35" property-ref="90757f48590046a89059b23cade8ff38" />
+              <attribute id="af6f3cd8a3a914207b2d952a42c4dbee4212" cid="PROP007" name="score" creation-date="01/19/2022 20:44:43" property-ref="5fa409bcb795415d80c7ebb6a62120ac" />
+            </attributes>
+            <operations>
+              <operation id="o809ede15ba1b4310b13c6252e8db030597" cid="OP008" name="Player" creation-date="01/19/2022 20:45:18" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p81bd4b145ba642e2acc2f5b00d60ddde" name="x" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tv9a3f905c4b094ec69e8107a4ce9ed871" name="set_width" type="reference" multiple="false" hidden="false" ref="46c102d5e7d346c4846b15dae9e5f681" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p335ecbcadccc4e83af08ade29f2aefe7" name="y" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tv600bc326af7f47709186370f339037cf" name="set_height" type="reference" multiple="false" hidden="false" ref="1d5d0ba7e9dd4cfda17b1d8410082e93" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p4de140e37acb4c5daa82e678dc35f275" name="width" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tvdcb0c355a8be40d48b80678181ba38c9" name="set_x" type="reference" multiple="false" hidden="false" ref="b74b6b3fdf43440fb42ed6220bc62e2e" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="pbf0fd498420142d8891edaa2f5e7f646" name="height" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tv502bbd8ab20c44bd918254aaee7d7e43" name="set_y" type="reference" multiple="false" hidden="false" ref="90757f48590046a89059b23cade8ff38" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oba0cf07cceec414c9cca3aa03a02ad64715" cid="OP019" name="getScore" creation-date="01/19/2022 20:46:54" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oaca4ebbfa1dc4c75ae1a7fad2c2d809d715" cid="OP020" name="addScore" creation-date="01/19/2022 20:46:54" type="" type-id="" visibility="public">
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o5883859785c846cdbb67daee72d37d62175" cid="OP013" name="getWidth" creation-date="01/19/2022 20:46:19" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o057f09cecc6847a9bea621cb85ef73ce401" cid="OP009" name="getHeight" creation-date="01/19/2022 20:46:05" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="odd3e53d12faf4eb880ab075a6462ca0a193" cid="OP015" name="getX" creation-date="01/19/2022 20:46:50" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="od0940816ec404b579e6a7538852ee1e8112" cid="OP017" name="getY" creation-date="01/19/2022 20:46:53" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o3e561c71d543460b8baf32fd3baebbfa112" cid="OP018" name="setY" creation-date="01/19/2022 20:46:53" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa12cad593f3d4c5e81d77e68035146db" name="y" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="cc013418f32e4b1cb7c809ea16296aa3" cid="C004" type="class" name="Ball" style-class="" owner="fc8ecc6ff1ea4aca95a568e06bbaf5c2" change-tracking-state="added" creator="" creation-date="01/19/2022 20:35:48">
+            <owned-items>
+              <owned-item ref="c796f60ad4f64c53a2ab9ea0b3d52309" />
+              <owned-item ref="948a6607801c4f01a494d579f0a194ba" />
+              <owned-item ref="9ded637d59c4449195611795fe2e25f9" />
+            </owned-items>
+            <attributes>
+              <attribute id="a4596e4f91a514897beba7ba8bbdf6bc2823" cid="PROP008" name="x" creation-date="01/19/2022 20:49:07" property-ref="c796f60ad4f64c53a2ab9ea0b3d52309" />
+              <attribute id="a67545eecb551462e9ad5c53576ce93d4512" cid="PROP009" name="y" creation-date="01/19/2022 20:49:12" property-ref="948a6607801c4f01a494d579f0a194ba" />
+              <attribute id="ad9cc1461900d41aab56a6344e8aed9aa221" cid="PROP010" name="radius" creation-date="01/19/2022 20:49:18" property-ref="9ded637d59c4449195611795fe2e25f9" />
+            </attributes>
+            <operations>
+              <operation id="o2e901008725f47b49cc36f51fa0d213134" cid="OP021" name="Ball" creation-date="01/19/2022 20:49:39" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0fdf033b159943c0a23dca3fcb66cc90" name="x" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tv372bc42b1d764c08abd015d4e30783d8" name="set_x" type="reference" multiple="false" hidden="false" ref="c796f60ad4f64c53a2ab9ea0b3d52309" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p9765d1ed73af45c8af90c6651fe15555" name="y" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tv062a53e8faa644e494aa67f4dbe848fa" name="set_y" type="reference" multiple="false" hidden="false" ref="948a6607801c4f01a494d579f0a194ba" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p636c6773538040ea840eb9fcaa78f88b" name="radius" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tve12d517f73c641078c461822f10ae214" name="set_radius" type="reference" multiple="false" hidden="false" ref="9ded637d59c4449195611795fe2e25f9" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o250e09013ef247fb8df4ed5753505971211" cid="OP023" name="SetX" creation-date="01/19/2022 20:49:51" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p5165021f0259456cac2a6a6572fd9395" name="x" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o859c5a0a719e40bda2c506679c44d37e898" cid="OP025" name="SetY" creation-date="01/19/2022 20:49:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p298ebb1a91f945b898d23866024b0d3c" name="y" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o9e3dd0bf5a8f466795402da55c6f76b5211" cid="OP022" name="GetX" creation-date="01/19/2022 20:49:51" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o0ebb03d3643048eb8411ced418056d0b898" cid="OP024" name="GetY" creation-date="01/19/2022 20:49:52" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ocb06aae847594c3e9bc95628eaf13968558" cid="OP026" name="GetRadius" creation-date="01/19/2022 20:49:54" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o6623288993214ecb9a5eee3547cd3d93428" cid="OP028" name="getBounds" creation-date="01/19/2022 20:50:54" type="Rectangle" type-id="Rectangle" visibility="public" />
+            </operations>
+          </item>
+          <item id="be627e6874cc4683b48bd912e8b3b8ee" cid="C005" type="class" name="Main" style-class="" owner="fc8ecc6ff1ea4aca95a568e06bbaf5c2" change-tracking-state="added" creator="" creation-date="01/19/2022 20:36:54">
+            <owned-items>
+              <owned-item ref="996d3f90455e4135906c051e0e7278db" />
+              <owned-item ref="504074f88ee64fd99853bc9005f77ca6" />
+              <owned-item ref="d5c887100c104f81be8752f490075d41" />
+            </owned-items>
+            <attributes>
+              <attribute id="ad30f2faae0f844aab0c8b913809b6bcf489" cid="PROP011" name="player1" creation-date="01/19/2022 20:54:16" property-ref="996d3f90455e4135906c051e0e7278db" />
+              <attribute id="ae1e1afeca0114042be3df76d882da11f873" cid="PROP012" name="player2" creation-date="01/19/2022 20:54:26" property-ref="504074f88ee64fd99853bc9005f77ca6" />
+              <attribute id="a758bf77dc5204765a285d260be50ec94364" cid="PROP013" name="ball" creation-date="01/19/2022 20:54:33" property-ref="d5c887100c104f81be8752f490075d41" />
+            </attributes>
+            <operations>
+              <operation id="ocd2d4a2a3f504561b58c5b6793bf4ef8672" cid="OP029" name="Main" creation-date="01/19/2022 20:54:01" type="" type-id="" visibility="public">
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="f84a7500225146ae887dcd717e85f691" cid="PROP001" type="property" name="frame" style-class="" owner="9009b11c9376464f9e4a471dd11412dc" creator="" creation-date="01/19/2022 20:39:23" visibility="private">
+            <feature />
+            <structural-feature type="Main" type-id="Class:be627e6874cc4683b48bd912e8b3b8ee" />
+            <property />
+          </item>
+          <item id="36145b2072c844489ce9485b6f51ed7b" cid="PROP002" type="property" name="frame" style-class="" owner="513efa1e9e7e43f6833a13b8782d35b2" creator="" creation-date="01/19/2022 20:40:35" visibility="private">
+            <feature />
+            <structural-feature type="Main" type-id="Class:be627e6874cc4683b48bd912e8b3b8ee" />
+            <property />
+          </item>
+          <item id="46c102d5e7d346c4846b15dae9e5f681" cid="PROP003" type="property" name="width" style-class="" owner="eeab68af5ea849a6908140c30a38fba5" creator="" creation-date="01/19/2022 20:42:26" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="1d5d0ba7e9dd4cfda17b1d8410082e93" cid="PROP004" type="property" name="height" style-class="" owner="eeab68af5ea849a6908140c30a38fba5" creator="" creation-date="01/19/2022 20:42:35" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="b74b6b3fdf43440fb42ed6220bc62e2e" cid="PROP005" type="property" name="x" style-class="" owner="eeab68af5ea849a6908140c30a38fba5" creator="" creation-date="01/19/2022 20:44:23" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="90757f48590046a89059b23cade8ff38" cid="PROP006" type="property" name="y" style-class="" owner="eeab68af5ea849a6908140c30a38fba5" creator="" creation-date="01/19/2022 20:44:35" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="5fa409bcb795415d80c7ebb6a62120ac" cid="PROP007" type="property" name="score" style-class="" owner="eeab68af5ea849a6908140c30a38fba5" creator="" creation-date="01/19/2022 20:44:43" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="c796f60ad4f64c53a2ab9ea0b3d52309" cid="PROP008" type="property" name="x" style-class="" owner="cc013418f32e4b1cb7c809ea16296aa3" creator="" creation-date="01/19/2022 20:49:07" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="948a6607801c4f01a494d579f0a194ba" cid="PROP009" type="property" name="y" style-class="" owner="cc013418f32e4b1cb7c809ea16296aa3" creator="" creation-date="01/19/2022 20:49:12" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="9ded637d59c4449195611795fe2e25f9" cid="PROP010" type="property" name="radius" style-class="" owner="cc013418f32e4b1cb7c809ea16296aa3" creator="" creation-date="01/19/2022 20:49:18" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="996d3f90455e4135906c051e0e7278db" cid="PROP011" type="property" name="player1" style-class="" owner="be627e6874cc4683b48bd912e8b3b8ee" creator="" creation-date="01/19/2022 20:54:16" visibility="private">
+            <feature />
+            <structural-feature type="Player" type-id="Class:eeab68af5ea849a6908140c30a38fba5" />
+            <property />
+          </item>
+          <item id="504074f88ee64fd99853bc9005f77ca6" cid="PROP012" type="property" name="player2" style-class="" owner="be627e6874cc4683b48bd912e8b3b8ee" creator="" creation-date="01/19/2022 20:54:26" visibility="private">
+            <feature />
+            <structural-feature type="Player" type-id="Class:eeab68af5ea849a6908140c30a38fba5" />
+            <property />
+          </item>
+          <item id="d5c887100c104f81be8752f490075d41" cid="PROP013" type="property" name="ball" style-class="" owner="be627e6874cc4683b48bd912e8b3b8ee" creator="" creation-date="01/19/2022 20:54:33" visibility="private">
+            <feature />
+            <structural-feature type="Ball" type-id="Class:cc013418f32e4b1cb7c809ea16296aa3" />
+            <property />
+          </item>
+          <item id="67171ec41df24d09948458bc1a47d122" cid="REL002" type="relationship" name="used for drawing the game" style-class="" change-tracking-state="added" creator="" creation-date="01/19/2022 20:57:02" from="9009b11c9376464f9e4a471dd11412dc" to="be627e6874cc4683b48bd912e8b3b8ee" visibility="package">
+            <relation from="9009b11c9376464f9e4a471dd11412dc" to="be627e6874cc4683b48bd912e8b3b8ee" derived="false">
+              <start-role id="umlar-26480a8c-0873-442f-86e5-84663c804366" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-afb0a3ca-f787-48e1-b547-66c160278e2b" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="9e1e101d72514065bfb5460673e87a15" cid="REL003" type="relationship" name="provides players" style-class="" change-tracking-state="added" creator="" creation-date="01/19/2022 20:57:29" from="eeab68af5ea849a6908140c30a38fba5" to="be627e6874cc4683b48bd912e8b3b8ee" visibility="package">
+            <relation from="eeab68af5ea849a6908140c30a38fba5" to="be627e6874cc4683b48bd912e8b3b8ee" derived="false">
+              <start-role id="umlar-a76062e5-a608-48d7-81d9-686936679e2f" name="" multiplicity="2" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-3c38a565-7111-4649-bcf0-c886f206e6b3" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="2325b38d0a9446b799902bc3398c1941" cid="REL004" type="relationship" name="provides the ball" style-class="" change-tracking-state="added" creator="" creation-date="01/19/2022 20:58:42" from="cc013418f32e4b1cb7c809ea16296aa3" to="be627e6874cc4683b48bd912e8b3b8ee" visibility="package">
+            <relation from="cc013418f32e4b1cb7c809ea16296aa3" to="be627e6874cc4683b48bd912e8b3b8ee" derived="false">
+              <start-role id="umlar-f1c0c17e-1260-4e9c-b0e2-e0a54bf3dae2" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-0e5c02a3-3c16-47a8-8861-0858da5e8f7f" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="7a71561a7e2f474ba94f513e6da98691" cid="REL005" type="relationship" name="provides the keyListener" style-class="" change-tracking-state="added" creator="" creation-date="01/19/2022 20:59:21" from="513efa1e9e7e43f6833a13b8782d35b2" to="be627e6874cc4683b48bd912e8b3b8ee" visibility="package">
+            <relation from="513efa1e9e7e43f6833a13b8782d35b2" to="be627e6874cc4683b48bd912e8b3b8ee" derived="false">
+              <start-role id="umlar-ddaea516-9ec8-4f3b-965c-79018dc148d4" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-07e2a9f4-c89f-4b0a-b917-47ed5c16c92a" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="1eeca0a7dfa74909a555d0fea655deed" name="Default" visible="true" enabled="true" locked="false">
+          <item id="fc8ecc6ff1ea4aca95a568e06bbaf5c2" iid="0107a942861f40918e028c2c751dd961" creation-date="01/19/2022 20:32:26" order-index="0" type="entity">
+            <layout ax="-64" ay="-77" awidth="953" aheight="628" x="-64" y="-77" width="953" height="628" expanded="-64,-77,953,628" collapsed="0,0,0,0" rotation-center="42.5,28.5" />
+            <package name-in-body="false" />
+          </item>
+          <item id="9009b11c9376464f9e4a471dd11412dc" iid="ac71fa538c9242eabc4fbfd82a9f5922" container="fc8ecc6ff1ea4aca95a568e06bbaf5c2" container-iid="0107a942861f40918e028c2c751dd961" creation-date="01/19/2022 20:32:37" order-index="1" type="entity">
+            <layout ax="-36" ay="7" awidth="214" aheight="98" x="-36" y="7" width="214" height="80" rotation-center="-37,40" />
+            <classifier />
+            <class />
+          </item>
+          <item id="eeab68af5ea849a6908140c30a38fba5" iid="88c336121fb349cbb83ba04b7d32ae55" container="fc8ecc6ff1ea4aca95a568e06bbaf5c2" container-iid="0107a942861f40918e028c2c751dd961" creation-date="01/19/2022 20:35:42" order-index="3" type="entity">
+            <layout ax="605" ay="-7" awidth="251" aheight="305" x="605" y="-7" width="251" height="305" rotation-center="37.5,-28" />
+            <classifier />
+            <class />
+          </item>
+          <item id="cc013418f32e4b1cb7c809ea16296aa3" iid="6375d1bc953648d9af8e2874b8234f6b" container="fc8ecc6ff1ea4aca95a568e06bbaf5c2" container-iid="0107a942861f40918e028c2c751dd961" creation-date="01/19/2022 20:35:48" order-index="4" type="entity">
+            <layout ax="288" ay="280" awidth="204" aheight="244" x="288" y="280" width="204" height="244" rotation-center="-32,-57" />
+            <classifier />
+            <class />
+          </item>
+          <item id="513efa1e9e7e43f6833a13b8782d35b2" iid="6dd323065d274c0296a6d164867d0944" container="fc8ecc6ff1ea4aca95a568e06bbaf5c2" container-iid="0107a942861f40918e028c2c751dd961" creation-date="01/19/2022 20:32:53" order-index="2" type="entity">
+            <layout ax="-36" ay="185.5" awidth="164" aheight="194" x="-36" y="185.5" width="164" height="194" rotation-center="-12,-17" />
+            <classifier />
+            <class />
+          </item>
+          <item id="be627e6874cc4683b48bd912e8b3b8ee" iid="76292298135b4ec09c8c02c0c583de9f" container="fc8ecc6ff1ea4aca95a568e06bbaf5c2" container-iid="0107a942861f40918e028c2c751dd961" creation-date="01/19/2022 20:36:54" order-index="5" type="entity">
+            <layout ax="320" ay="-7" awidth="140" aheight="160" x="320" y="-7" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="67171ec41df24d09948458bc1a47d122" iid="9f45ce4c957b44c6b6935a9d6b69bb0c" creation-date="01/19/2022 20:57:02" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="178" y1="57" x2="320" y2="57" start-border-pos="0.377551020408163" end-border-pos="0.9" name-position="0,20">
+              <points>
+                <point x="178" y="57" />
+                <point x="320" y="57" />
+              </points>
+            </layout>
+            <relation from="9009b11c9376464f9e4a471dd11412dc" from-iid="ac71fa538c9242eabc4fbfd82a9f5922" to="be627e6874cc4683b48bd912e8b3b8ee" to-iid="76292298135b4ec09c8c02c0c583de9f" />
+          </item>
+          <item id="9e1e101d72514065bfb5460673e87a15" iid="a6d64dc925004b2ba136dd12572230f5" creation-date="01/19/2022 20:57:29" order-index="7" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="27,16" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="605" y1="146" x2="460" y2="45" start-border-pos="0.874590163934426" end-border-pos="0.33125" name-position="6,-81">
+              <points>
+                <point x="605" y="146" />
+                <point x="530" y="146" />
+                <point x="529" y="45" />
+                <point x="460" y="45" />
+              </points>
+            </layout>
+            <relation from="eeab68af5ea849a6908140c30a38fba5" from-iid="88c336121fb349cbb83ba04b7d32ae55" to="be627e6874cc4683b48bd912e8b3b8ee" to-iid="76292298135b4ec09c8c02c0c583de9f" />
+          </item>
+          <item id="2325b38d0a9446b799902bc3398c1941" iid="1fc31366acdd4dcf8cd0a26dc0ccc08c" creation-date="01/19/2022 20:58:42" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="390" y1="280" x2="390" y2="153" start-border-pos="0.125" end-border-pos="0.625" name-position="72,0">
+              <points>
+                <point x="390" y="280" />
+                <point x="390" y="153" />
+              </points>
+            </layout>
+            <relation from="cc013418f32e4b1cb7c809ea16296aa3" from-iid="6375d1bc953648d9af8e2874b8234f6b" to="be627e6874cc4683b48bd912e8b3b8ee" to-iid="76292298135b4ec09c8c02c0c583de9f" />
+          </item>
+          <item id="7a71561a7e2f474ba94f513e6da98691" iid="2bfdaa0461a04749942a373e55d26641" creation-date="01/19/2022 20:59:21" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,14" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="128" y1="282" x2="320" y2="119" start-border-pos="0.374355670103093" end-border-pos="0.803125" name-position="-100,-60">
+              <points>
+                <point x="128" y="282" />
+                <point x="243" y="282" />
+                <point x="243" y="119" />
+                <point x="320" y="119" />
+              </points>
+            </layout>
+            <relation from="513efa1e9e7e43f6833a13b8782d35b2" from-iid="6dd323065d274c0296a6d164867d0944" to="be627e6874cc4683b48bd912e8b3b8ee" to-iid="76292298135b4ec09c8c02c0c583de9f" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
