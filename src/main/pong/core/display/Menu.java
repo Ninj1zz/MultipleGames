@@ -41,6 +41,7 @@ public class Menu extends JFrame {
 		btnPvP.setSelected(true);
 		btnPvP.setFocusPainted(false);
 		btnPvP.addActionListener(e -> {
+			btnPvP.setSelected(true);
 			btnPvAi.setSelected(false);
 			btnAiVAi.setSelected(false);
 
@@ -58,6 +59,7 @@ public class Menu extends JFrame {
 		btnPvAi.setFocusPainted(false);
 		btnPvAi.addActionListener(e -> {
 			btnPvP.setSelected(false);
+			btnPvAi.setSelected(true);
 			btnAiVAi.setSelected(false);
 
 			cmbxDifficultyAi1.setEnabled(true);
@@ -73,8 +75,9 @@ public class Menu extends JFrame {
 		btnAiVAi.setVisible(true);
 		btnAiVAi.setFocusPainted(false);
 		btnAiVAi.addActionListener(e -> {
-			btnPvAi.setSelected(false);
 			btnPvP.setSelected(false);
+			btnPvAi.setSelected(false);
+			btnAiVAi.setSelected(true);
 
 			cmbxDifficultyAi1.setEnabled(true);
 			cmbxDifficultyAi2.setEnabled(true);
